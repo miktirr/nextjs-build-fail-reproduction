@@ -1,3 +1,6 @@
+// The "nodejs" works but the "edge" breaks the build
+export const runtime = "edge";
+
 export default function RootLayout({
   children,
 }: Readonly<{
